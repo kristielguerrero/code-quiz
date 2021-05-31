@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"/> 
     <title>Code Quiz</title>
 </head>
 <body>
-    <script src="script.js"></script>
-    <script src="questions.js"></script>
-
     <div id="timer">
         <h3>Time: <span id="time">0</span></h3>
     </div>
     <div>
     <button id="start-btn">Start</button>
-    <button id="submit">Submit Quiz</button>
     </div>
-    
+    <div id="question-section">
+        <h1 id="title"> </h1>
+        <div id="choices"></div>
+    </div>
+    <div id="end-game">
+        <h1>You Finished!</h1>
+        <button id="submit">Submit Quiz</button>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
