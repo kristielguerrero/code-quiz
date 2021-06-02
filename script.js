@@ -3,12 +3,15 @@ console.log(questions);
 var time = questions.length * 10;
 var timer = null;
 var currentQuestion;
-var questionEl = document.getElementById("title");
 var qIndex = 0;
+var questionEl = document.getElementById("title");
 var endGameEl = document.getElementById("end-game");
 var choicesEl = document.getElementById("choices");
 var startBtn = document.getElementById("start-btn");
 var timeEL = document.getElementById("time");
+
+//style formatting
+
 //event listeners
 
 function startQuiz() {
