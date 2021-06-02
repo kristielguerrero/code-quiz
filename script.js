@@ -32,6 +32,7 @@ function endQuiz() {
 function endGame() {
   questionEl.style.display = "none";
   endGameEl.style.display = "block";
+  clearInterval(timer);
 }
 
 function showQuestions() {
